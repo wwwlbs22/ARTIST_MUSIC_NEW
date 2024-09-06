@@ -43,7 +43,7 @@ async def init():
     await userbot.start()
     await Spotify.start()
     try:
-        await Spotify.stream_call("https://graph.org/file/e999c40cb700e7c684b75.mp4")
+        await Spotify.stream_call("https://telegra.ph/file/c6e7be9e8ba1178fd82ef.mp4")
     except NoActiveGroupCall:
         LOGGER("Spotify_Music").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
