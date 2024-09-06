@@ -65,10 +65,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("THE_PUNJABI_BANDE")
-                await self.one.join_chat("THE_PUNJABI_BANDE")
-                await self.one.join_chat("THE_PUNJABI_BANDE")
-                await self.one.join_chat("THE_PUNJABI_BANDE")
+                await self.one.join_chat("assistant_chat_group")
+                await self.one.join_chat("assistant_chat_group")
+                await self.one.join_chat("assistant_chat_group")
+                await self.one.join_chat("assistant_chat_group")
 
             except:
                 pass
@@ -95,10 +95,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("THE_PUNJABI_BANDE")
-                await self.two.join_chat("THE_PUNJABI_BANDE")
-                await self.two.join_chat("THE_PUNJABI_BANDE")
-                await self.two.join_chat("THE_PUNJABI_BANDE")
+                await self.two.join_chat("assistant_chat_group")
+                await self.two.join_chat("assistant_chat_group")
+                await self.two.join_chat("assistant_chat_group")
+                await self.two.join_chat("assistant_chat_group")
             except:
                 pass
             assistants.append(2)
@@ -119,10 +119,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("THE_PUNJABI_BANDE")
-                await self.three.join_chat("THE_PUNJABI_BANDE")
-                await self.three.join_chat("THE_PUNJABI_BANDE")
-                await self.three.join_chat("THE_PUNJABI_BANDE")
+                await self.three.join_chat("assistant_chat_group")
+                await self.three.join_chat("assistant_chat_group")
+                await self.three.join_chat("assistant_chat_group")
+                await self.three.join_chat("assistant_chat_group")
             except:
                 pass
             assistants.append(3)
@@ -144,10 +144,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("THE_PUNJABI_BANDE")
-                await self.four.join_chat("THE_PUNJABI_BANDE")
-                await self.four.join_chat("THE_PUNJABI_BANDE")
-                await self.four.join_chat("THE_PUNJABI_BANDE")
+                await self.four.join_chat("assistant_chat_group")
+                await self.four.join_chat("assistant_chat_group")
+                await self.four.join_chat("assistant_chat_group")
+                await self.four.join_chat("assistant_chat_group")
             except:
                 pass
             assistants.append(4)
@@ -168,11 +168,11 @@ class Userbot(Client):
 
         if config.STRING5:
             await self.five.start()
-            try:
-                await self.five.join_chat("THE_PUNJABI_BANDE")
-                await self.five.join_chat("THE_PUNJABI_BANDE")
-                await self.five.join_chat("THE_PUNJABI_BANDE")
-                await self.five.join_chat("testbotbad")
+            try:self.five.join_chat("assistant_chat_group")
+                await self.five.join_chat("assistant_chat_group")
+                await self.five.join_chat("assistant_chat_group")
+                await self.five.join_chat("assistant_chat_group")
+                await self.five.join_chat("Quiz2xf")
             except:
                 pass
             assistants.append(5)
