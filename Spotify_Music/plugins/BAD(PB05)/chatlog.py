@@ -11,8 +11,8 @@ from pathlib import Path
 from pyrogram.enums import ParseMode
 
 photo = [
-     "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-     "https://telegra.ph/file/a20ce93f9413d7b6da73f.jpg",
+     "https://telegra.ph/file/cbecddc593ee185795551.jpg",
+     "https://telegra.ph/file/cbecddc593ee185795551.jpg",
 ]
 
 @app.on_message(filters.new_chat_members, group=2)
@@ -33,7 +33,7 @@ async def join_watcher(_, message):
                 f"👻 ᴀᴅᴅᴇᴅ ʙʏ: {message.from_user.mention}"
             )
             await app.send_photo(LOG_GROUP_ID, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(f"sᴇᴇ ɢʀᴏᴜᴘ😋", url=f"{link}")]
+                [InlineKeyboardButton(f"sᴇᴇ ɢʀᴏᴜᴘ🥲", url=f"{link}")]
             ]))
 
 @app.on_message(filters.left_chat_member)
